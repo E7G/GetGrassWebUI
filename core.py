@@ -35,7 +35,7 @@ class AsyncGrassWs:
         self._stopped = False
         self._ping_stopped = False
         self.server_hostname = "proxy.wynd.network"
-        self.server_port = 4444
+        self.server_port = 4650
         self.server_url = f"wss://{self.server_hostname}:{self.server_port}/"
         self.proxy_timeout = 60
 
